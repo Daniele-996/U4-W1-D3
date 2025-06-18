@@ -1,4 +1,4 @@
-import esOne.Rettangolo;
+package esOne;
 
 public class Main {
     public static void main(String[] args) {
