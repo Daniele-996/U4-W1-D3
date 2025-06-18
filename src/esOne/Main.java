@@ -1,5 +1,8 @@
 package esOne;
 
+import static esOne.Rettangolo.stampaDueRettangoli;
+import static esOne.Rettangolo.stampaRettangolo;
+
 public class Main {
     public static void main(String[] args) {
         Rettangolo firstRett = new Rettangolo(10, 20);
@@ -14,9 +17,8 @@ public class Main {
         secondRett.getPerimetro();
         secondRett.getArea();
 
-        firstRett.stampaRettangolo();
-        secondRett.stampaRettangolo();
-
-        firstRett.stampaDueRettangoli(firstRett, secondRett);
+        stampaRettangolo();
+        stampaRettangolo();
+        stampaDueRettangoli(firstRett, secondRett);
     }
 }
