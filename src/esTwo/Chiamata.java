@@ -8,7 +8,7 @@ public final class Chiamata {
         this.durata = durata;
         this.numero = numero;
     }
-
+    
     public int getDurata() {
         return durata;
     }
